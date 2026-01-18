@@ -1,0 +1,12 @@
+# Data & modèles
+data/
+*.csv
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+
+# Environnement
+.env
