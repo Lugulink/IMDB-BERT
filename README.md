@@ -39,3 +39,13 @@ Docker
 
 The datasets used for training are not included in this repository.
 Please place the CSV files in the `data/` directory following this structure:
+## Dataset
+
+The dataset used in this project consists of IMDB movie reviews.
+CSV files are intentionally not included in this repository due to
+size and licensing considerations.
+
+To run the application locally, you must provide your own CSV files
+matching the expected format and place them in:
+
+data/commentaire/
