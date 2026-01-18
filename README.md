@@ -34,3 +34,8 @@ Scikit-learn
 Pandas / NumPy
 
 Docker
+
+## Data
+
+The datasets used for training are not included in this repository.
+Please place the CSV files in the `data/` directory following this structure:
