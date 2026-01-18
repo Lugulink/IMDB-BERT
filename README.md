@@ -1,20 +1,27 @@
-🧠 IMDB Movie Sentiment Analysis – Dash & BERT
+🧠 IMDB Movie Sentiment Analysis
+Dash Web App powered by BERT embeddings
 
-Projet de visualisation et analyse de sentiments de films IMDB basé sur des embeddings BERT et une application web Dash interactive.
+This project is an interactive web application for analyzing and visualizing IMDB movie review sentiments, based on BERT sentence embeddings and classical machine learning models.
 
-🚀 Fonctionnalités
+The application is built with Dash & Plotly and is fully dockerized for easy reproducibility.
 
-Analyse de sentiments de commentaires IMDB
+🚀 Features
 
-Projection des embeddings (PCA / t-SNE / MDS)
+Sentiment analysis of IMDB movie reviews
 
-Prédiction de sentiment par film
+Sentence embeddings using BERT (Sentence-Transformers)
 
-Visualisations interactives avec Plotly & Dash
+Dimensionality reduction with PCA, t-SNE, and MDS
 
-Application entièrement dockerisée
+Interactive visualizations with Plotly
 
-🛠️ Stack technique
+Movie-level sentiment prediction
+
+Modular Dash layout with multiple tabs
+
+Fully containerized with Docker
+
+🛠️ Tech Stack
 
 Python 3.10
 
