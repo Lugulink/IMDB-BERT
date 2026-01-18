@@ -6,7 +6,10 @@ data/
 
 # Python
 __pycache__/
+.vscode/
+.idea/
 *.pyc
 
 # Environnement
 .env
+
