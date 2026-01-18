@@ -1,0 +1,5 @@
+youtube: charming data
+
+Pour bootstrap:
+https://hackerthemes.com/bootstrap-cheatsheet/
+https://dashcheatsheet.pythonanywhere.com/
