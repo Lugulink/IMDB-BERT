@@ -9,6 +9,10 @@ __pycache__/
 .vscode/
 .idea/
 *.pyc
+*.py[cod]
+.ipynb_checkpoints/
+*.pth
+*.pt
 
 # Environnement
 .env
