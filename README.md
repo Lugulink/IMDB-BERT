@@ -30,7 +30,7 @@ Ce projet est une **application web interactive** développée avec **Dash (Plot
 
 ## 📸 Démonstration
 
-<!-- ![Dashboard Home](./screenshots/dashboard_home.png) -->
+[Dashboard Home](./screenshots/dashboard_home.png)
 *Figure 1 : Interface principale avec projection T-SNE et prédiction en temps réel.*
 
 ---
