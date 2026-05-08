@@ -27,4 +27,4 @@ COPY . .
 EXPOSE 8050
 
 # Commande de lancement
-CMD ["python", "IMDB_app.py"]
+CMD ["python", "IMDB_app.py", "--host", "0.0.0.0", "--port", "8050"]
