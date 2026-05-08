@@ -65,28 +65,29 @@ python main.py
 L'application sera accessible à l'adresse : http://127.0.0.1:8050
 
 ## 📂 Structure du Projet
-IMDB-BERT/
-├── main.py              # Point d'entrée (Layout & Callbacks)
-├── constante_app.py     # Constantes et configuration
-├── commentaire.py       # Prétraitement & Filtrage
-├── graphique.py         # Fonctions de visualisation
-├── tab_donnees.py       # Onglet Données
-├── tab_projection.py    # Onglet Projection (T-SNE/ACP)
-├── tab_prediction_film.py # Onglet Prédiction
-├── tab_temporalite.py   # Onglet Chronologie
-├── data/                # Données (ignorées par Git)
-├── models/              # Modèles (ignorés par Git)
-├── requirements.txt     # Dépendances
-├── .gitignore          # Fichiers ignorés
-└── README.md           # Ce fichier
+* IMDB-BERT/
+
+* ├── main.py              # Point d'entrée (Layout & Callbacks)
+* ├── constante_app.py     # Constantes et configuration
+* ├── commentaire.py       # Prétraitement & Filtrage
+* ├── graphique.py         # Fonctions de visualisation
+* ├── tab_donnees.py       # Onglet Données
+* ├── tab_projection.py    # Onglet Projection (T-SNE/ACP)
+* ├── tab_prediction_film.py # Onglet Prédiction
+* ├── tab_temporalite.py   # Onglet Chronologie
+* ├── data/                # Données (ignorées par Git)
+* ├── models/              # Modèles (ignorés par Git)
+* ├── requirements.txt     # Dépendances
+* ├── .gitignore          # Fichiers ignorés
+* └── README.md           # Ce fichier
 
 ## 💡 Ce que j'ai appris
 Ce projet, réalisé dans le cadre de mon BUT, m'a permis de :
 
-Développer une application Full-Stack Data : De la modélisation (BERT) à l'interface utilisateur (Dash).
-Gérer des callbacks complexes : Mise à jour dynamique de graphiques en fonction de multiples inputs (sliders, dropdowns).
-Structurer un code modulaire : Séparation des responsabilités (layout, logique métier, visualisation) pour une maintenabilité optimale.
-Visualiser des données haute dimension : Utilisation de T-SNE et ACP pour rendre intelligibles des plongements vectoriels.
+* Développer une application Full-Stack Data : De la modélisation (BERT) à l'interface utilisateur (Dash).
+* Gérer des callbacks complexes : Mise à jour dynamique de graphiques en fonction de multiples inputs (sliders, dropdowns).
+* Structurer un code modulaire : Séparation des responsabilités (layout, logique métier, visualisation) pour une maintenabilité optimale.
+* Visualiser des données haute dimension : Utilisation de T-SNE et ACP pour rendre intelligibles des plongements vectoriels.
 
 ## 📚 Références
 Dataset : IMDb Movie Reviews - Kaggle
