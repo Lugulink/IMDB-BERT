@@ -53,7 +53,7 @@ df_coord = pd.DataFrame({
 
 graphique = sns.lmplot(x="axe0", y="axe1", hue="titre", data=df_coord, fit_reg=False)
 graphique.set(xlabel="Axe 0", ylabel="Axe 1")
-graphique.fig.suptitle("TSNE: commentaires IMDB")
+graphique.figure.suptitle("TSNE: commentaires IMDB")
 
 
 
